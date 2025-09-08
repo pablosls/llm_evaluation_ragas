@@ -55,7 +55,6 @@ Thumbs.db
 *.key
 
 # Bench / eval artifacts
-compare_results.csv
 *.jsonl
 *.json.tmp
 
