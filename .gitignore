@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtualenv / pyenv
+.venv/
+venv/
+env/
+ENV/
+.pyenv/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.out
+*.err
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb.json
+
+# pytest / coverage
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# RAG / Vectorstores
+.chroma/
+faiss_index/
+*.db
+*.sqlite
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env vars / secrets
+.env
+.env.*
+*.secret
+*.key
+
+# Bench / eval artifacts
+compare_results.csv
+*.jsonl
+*.json.tmp
+
+# Ollama
+*.bin
