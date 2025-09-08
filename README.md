@@ -36,12 +36,16 @@ pytest
 - `examples/bench_speed.py`: mede latência (TTFT, total) e tokens/s direto na API do Ollama.
 - `examples/eval_ragas.py`: avalia qualidade no mini-RAG com **RAGAS**.
 
+
+
 === Comparação Latência vs Qualidade ===
 Model           Total(s) TPS    Faith  Rel    CPrec  CRec  
 qwen2.5:3b      4.95     49.9   0.91   0.86   1.00   1.00  
 llama3.1:8b     13.30    23.7   0.71   0.69   1.00   1.00  
 
 JSON bruto:
+
+```json
 [
   {
     "model": "qwen2.5:3b",
@@ -66,6 +70,7 @@ JSON bruto:
     "context_recall": 1.0
   }
 ]
+```
 Salvo em compare_results.csv
 
 
